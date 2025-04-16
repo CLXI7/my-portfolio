@@ -3,63 +3,74 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Clive Lawrence | Portfolio</title>
+  <title>Clive Lawrence Xavier | Portfolio</title>
   <link rel="stylesheet" href="style.css" />
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
 </head>
 <body>
   <header>
-    <nav>
-      <h1>Clive Lawrence Xavier</h1>
-      <ul>
-        <li><a href="#projects">Projects</a></li>
-        <li><a href="#about">About</a></li>
-        <li><a href="#resume">Resume</a></li>
-        <li><a href="#contact">Contact</a></li>
-      </ul>
-    </nav>
-  </header>
+    <img src="images/profile.jpg" alt="Clive Lawrence Xavier" class="profile-img" data-aos="zoom-in">
+    <h1 data-aos="fade-down">Clive Lawrence Xavier</h1>
+    <p data-aos="fade-up">Aspiring Computer Science & Data Science Student</p>
+  </header>  
 
-  <section class="hero">
-    <h2>Hello, I'm a Node.js Developer</h2>
-    <p>I build web apps with JavaScript and backends with Node.js.</p>
+  <section class="about" data-aos="fade-right">
+    <h2>Career Objective</h2>
+    <p>Passionate about coding, problem-solving, and tech solutions. Looking to apply skills in software dev, data analysis & cloud technologies.</p>
   </section>
 
-  <section id="projects">
+  <section class="education" data-aos="fade-left">
+    <h2>Education</h2>
+    <p>Integrated MSc. in Computer Science – Data Science<br>
+    Sacred Heart College, Thevara, Kochi<br>
+    2023 – 2028 | Percentage: Above 90%</p>
+  </section>
+
+  <section class="skills" data-aos="zoom-in">
+    <h2>Technical Skills</h2>
+    <ul>
+      <li>C, C++, Python, SQL, R, HTML, JavaScript</li>
+      <li>Tools: Git, VS Code, Google Colab, Jupyter Notebook</li>
+      <li>Cloud: Learning AWS | Typing Speed: 70 WPM</li>
+    </ul>
+  </section>
+
+  <section class="projects" data-aos="fade-up">
     <h2>Projects</h2>
-    <div class="project-list">
-      <div class="project">
-        <h3>Blog API</h3>
-        <p>A RESTful API for blog management built with Node.js and MongoDB.</p>
-        <a href="https://github.com/yourusername/blog-api" target="_blank">View on GitHub</a>
-      </div>
-      <!-- Add more projects as needed -->
-    </div>
+    <ul>
+      <li>💬 Simple Chatbot using Python (ChatGPT API)</li>
+      <li>🌐 Portfolio Website (this one!)</li>
+      <li>📊 Student DB Management System (Python + SQL)</li>
+      <li>📈 World Happiness Report Visualization</li>
+    </ul>
   </section>
 
-  <section id="about">
-    <h2>About Me</h2>
-    <p>Aspiring backend developer, currently exploring full-stack web development. Passionate about clean code, APIs, and problem solving.</p>
+  <section class="certifications" data-aos="flip-left">
+    <h2>Certifications</h2>
+    <p>Currently learning AWS and frameworks. Certifications coming soon!</p>
   </section>
 
-  <section id="resume">
-    <h2>Resume</h2>
-    <a href="assets/Clive_Lawrence_Xavier_Resume.pdf" download>Download My Resume</a>
+  <section class="achievements" data-aos="zoom-in-up">
+    <h2>Achievements & Extracurriculars</h2>
+    <ul>
+      <li>💻 Coding Competitions & Hackathons</li>
+      <li>⚽ Football Player | 🎹 Pianist</li>
+      <li>🎬 Content Creator (Reels, Shorts)</li>
+      <li>🧠 Peer Teacher | DSA Self-learner</li>
+    </ul>
   </section>
 
-  <section id="contact">
-    <h2>Contact</h2>
-    <form id="contactForm">
-      <input type="text" placeholder="Your Name" required />
-      <input type="email" placeholder="Your Email" required />
-      <textarea placeholder="Your Message" required></textarea>
-      <button type="submit">Send</button>
-    </form>
-  </section>
-
-  <footer>
-    <p>&copy; 2025 Clive</p>
+  <footer data-aos="fade-up">
+    <h2>Contact Me</h2>
+    <p>Email: <a href="mailto:clivelawrence17@gmail.com">clivelawrence17@gmail.com</a></p>
+    <p>Phone: +91 9847911808</p>
+    <p>
+      <a href="https://github.com/CLXI7" target="_blank">GitHub</a> |
+      <a href="https://linkedin.com/in/clive-lawrence-xavier-bb8034261" target="_blank">LinkedIn</a>
+    </p>
   </footer>
 
-  <script src="script.js"></script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>AOS.init();</script>
 </body>
 </html>
